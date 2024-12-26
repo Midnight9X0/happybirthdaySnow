@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Page 1 -->
+    <div class="page video-background" id="page1">
+      <video autoplay muted loop>
+        <source src="videos/page1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="content">
+        <h1>Happy Birthday,My White Snow!❄️</h1>
+        <p>This is the day when the person important to me was born.Efti Sumaya Sultana Pushpo I hope you love this surprise!😊</p>
+        <button class="next-button" onclick="nextPage()">Are you ready?</button>
+      </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page" id="page2" style="background-image: url('backgrounds/background2.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame left">
+          <img src="photos/photo2.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>For the dazzling beauty queen I just wanna say: "Pehli nazar mein kaise jaado kar diya tera ban baita hai mera jiya..."</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">Keep going</button>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page" id="page3" style="background-image: url('backgrounds/background3.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame right">
+          <img src="photos/photo3.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>You look gorgeous and pretty in saree... Whenever I see you in saree I'm like "Tere Liye..Jhoomu Deewana Ban Ke Tere Liye".. and I wanna say "Vaada Hai Mera Main Hoon Tere Liye"🥺</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">This is only the beginning🤠 </button>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="page" id="page4" style="background-image: url('backgrounds/background4.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame middle">
+          <img src="photos/photo4.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>You though nobody could love you or stay with you but I would love to stay with you until</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">Are you loving it?</button>
+    </div>
+
+    <!-- Page 5 -->
+    <div class="page" id="page5" style="background-image: url('backgrounds/background5.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame right">
+          <img src="photos/photo5.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>I love this blue hijab of yours.I find you cute when you wear it🥺💖r</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">You look kawaiiiiii!</button>
+    </div>
+
+    <!-- Page 6 -->
+    <div class="page" id="page6" style="background-image: url('backgrounds/background6.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame left">
+          <img src="photos/photo6.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>For this photo I just wanna say "Main dil ka raaz kehta hoon ke jab-jab saansein leta hoon tera hi naam leta hoon...Ye tune kya kiya?"</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">Halfway through</button>
+    </div>
+
+    <!-- Page 7 -->
+    <div class="page" id="page7" style="background-image: url('backgrounds/background7.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame left">
+          <img src="photos/photo7.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>How Should I tell you? "Kaise Bataaye Kyun Tujhko Chaahe
+            Yaara Bata Na Paaye
+            Baatein Dilon Ki Dekho Jo Baaki
+            Aankhein Tujhe Samjhaaye
+            Tu Jaane Na Aaa..."</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">Keep it up... </button>
+    </div>
+
+    <!-- Page 8 -->
+    <div class="page" id="page8" style="background-image: url('backgrounds/background8.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame middle">
+          <img src="photos/photo8.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>when I first saw this photo I was like "Zulfon se kaise zulfon se teri chupti pyari pyari si muskaan hai" </p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">Soon you will reach the end!</button>
+    </div>
+
+    <!-- Page 9 -->
+    <div class="page" id="page9" style="background-image: url('backgrounds/background9.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame left">
+          <img src="photos/photo9.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>You really do have some great friends so i would say;“Cherish the things you love. Cherish the moments with them.”</p>
+        </div>
+      </div>
+      <button class="next-button" onclick="nextPage()">Almost there!</button>
+    </div>
+
+    <!-- Page 10 -->
+    <div class="page" id="page10" style="background-image: url('backgrounds/background10.jpg');">
+      <header>Happy Birthday</header>
+      <div class="content">
+        <div class="photo-frame right">
+          <img src="photos/photo10.jpg" alt="Photo">
+        </div>
+        <div class="custom-message">
+          <p>Ik old pic eta use korchi dekhe face ekta banaicho.. but tbh tomader ma meye 2ta ke onek shondor lagteche.. hea ektu healthy beshi chila tkhn janaa.. but tkhn o mashallah dile shondor lagto🥹💖... Tomader a pic ta amr ekta fev pic .. onek cute lagteche tomader ma meye 2ta ke🥹✨..</p>
+        </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
